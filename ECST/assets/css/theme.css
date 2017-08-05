@@ -7179,7 +7179,7 @@ button.close {
   position: relative;
   padding: 100px 0;
   text-align: center;
-  background: url(../img/courses_bg.jpg) no-repeat center center / cover;
+  background: url('../../art/Course Back.jpg') no-repeat center center / cover;
   /*** 4.1. Courses item wrapper ***/
 }
 #index__page .section__courses:before {

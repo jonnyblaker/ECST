@@ -60,10 +60,12 @@
     <Content Include="404page.html" />
     <Content Include="about.html" />
     <Content Include="art\About.png" />
+    <Content Include="art\Course Back.jpg" />
     <Content Include="art\ECST logo.png" />
     <Content Include="art\Home Banner.jpg" />
     <Content Include="art\MaybeHome.jpg" />
     <Content Include="art\sold.jpg" />
+    <Content Include="art\theCloud.jpg" />
     <Content Include="assets\bootstrap\css\bootstrap-theme.css" />
     <Content Include="assets\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="assets\bootstrap\css\bootstrap.css" />
@@ -248,9 +250,17 @@
     <Content Include="teacher-profile.html" />
     <Content Include="teachers.html" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\bootstrap\css\bootstrap-theme.css.map" />
