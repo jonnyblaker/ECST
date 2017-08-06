@@ -8382,14 +8382,14 @@ button.close {
 }
 #about__page .section__subtitle {
   font-family: 'Sintony', sans-serif;
-  font-size: 12px;
+  font-size: p2px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .6em;
 }
 @media (max-width: 767px) {
   #about__page .section__subtitle {
-    font-size: 11px;
+    font-size: cher_item__overlay .overlay__
     letter-spacing: .3em;
   }
 }
